@@ -34,7 +34,7 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={150} className="lg:col-span-6">
-          <div className="relative overflow-hidden">
+          <div className="relative overflow-hidden border border-ink-100">
             <img
               src={HERO_IMAGE}
               alt="Woman in a white turtleneck and dark trousers posing elegantly in a studio"
@@ -46,7 +46,7 @@ export default function Hero() {
         </Reveal>
       </div>
 
-      <div className="border-y border-ink-100 bg-ivory-50">
+      <div className="border-t border-ink-100 bg-ivory-50">
         <ul className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-5 py-6 text-xs font-semibold uppercase tracking-[0.2em] text-ink-700 sm:px-8 lg:px-12">
           {COVERED.map((item, index) => (
             <li key={item} className="flex items-center gap-8">

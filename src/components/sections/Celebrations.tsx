@@ -11,7 +11,7 @@ export default function Celebrations() {
   const active = CELEBRATIONS[activeIndex];
 
   return (
-    <section id="celebrations" className="scroll-mt-20 bg-sand-100 py-24 lg:py-32">
+    <section id="celebrations" className="scroll-mt-20 border-t border-ink-100 bg-sand-100 py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-16">
           <Reveal className="lg:col-span-5">
@@ -64,7 +64,7 @@ export default function Celebrations() {
             className="lg:col-span-7"
           >
             <div key={active.id} className="panel-enter grid gap-8 md:grid-cols-12 md:gap-10">
-              <div className="overflow-hidden md:col-span-6">
+              <div className="overflow-hidden border border-ink-100 md:col-span-6">
                 <img
                   src={active.image}
                   alt={active.imageAlt}

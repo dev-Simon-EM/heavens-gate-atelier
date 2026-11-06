@@ -1,4 +1,4 @@
-const LOGO_SRC = '/Luxury_Heavens_Gate_Atelier_Logo.png';
+const LOGO_SRC = `${import.meta.env.BASE_URL}Luxury_Heavens_Gate_Atelier_Logo.png`;
 const LOGO_SIZE = 1072;
 
 type BrandMarkProps = {

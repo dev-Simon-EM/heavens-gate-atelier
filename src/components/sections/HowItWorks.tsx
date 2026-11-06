@@ -4,7 +4,7 @@ import { STEPS } from '@/data/content';
 
 export default function HowItWorks() {
   return (
-    <section className="bg-ivory-200 py-24 lg:py-32">
+    <section className="border-t border-ink-100 bg-ivory-200 py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <Reveal className="max-w-2xl">
           <SectionLabel>How It Works</SectionLabel>

@@ -1,22 +1,20 @@
 import Reveal from '@/components/ui/Reveal';
 import SectionLabel from '@/components/ui/SectionLabel';
 import { VALUES } from '@/data/content';
-
-const VALUES_IMAGE =
-  'https://images.pexels.com/photos/7147587/pexels-photo-7147587.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
+import craftsmanshipImage from '@/assets/atelier-craft.jpg';
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-ivory-100 py-24 lg:py-32">
+    <section className="border-t border-ink-100 bg-ivory-100 py-24 lg:py-32">
       <div className="mx-auto grid max-w-7xl gap-16 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20 lg:px-12">
         <Reveal className="lg:col-span-5 lg:sticky lg:top-28 lg:self-start">
           <img
-            src={VALUES_IMAGE}
-            alt="Dressmaker working at a desk with a flexible ruler in a studio"
+            src={craftsmanshipImage}
+            alt="Tailor taking a customer's measurements during a fitting"
             width={940}
             height={650}
             loading="lazy"
-            className="aspect-[4/5] w-full object-cover"
+            className="aspect-[4/5] w-full border border-ink-100 object-cover"
           />
         </Reveal>
 

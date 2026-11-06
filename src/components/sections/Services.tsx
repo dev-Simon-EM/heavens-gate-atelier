@@ -7,7 +7,7 @@ import { buildWhatsAppUrl } from '@/lib/contact';
 
 export default function Services() {
   return (
-    <section id="services" className="scroll-mt-20 bg-ivory-100 py-24 lg:py-32">
+    <section id="services" className="scroll-mt-20 border-t border-ink-100 bg-ivory-100 py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <Reveal className="max-w-2xl">
           <SectionLabel>Our Services</SectionLabel>
@@ -25,7 +25,7 @@ export default function Services() {
             return (
               <Reveal key={service.id}>
                 <article className="grid items-center gap-8 md:grid-cols-12 md:gap-12">
-                  <div className={`overflow-hidden md:col-span-6 ${isReversed ? 'md:order-2' : ''}`}>
+                  <div className={`overflow-hidden border border-ink-100 md:col-span-6 ${isReversed ? 'md:order-2' : ''}`}>
                     <img
                       src={service.image}
                       alt={service.imageAlt}

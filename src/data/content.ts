@@ -1,5 +1,8 @@
 import type { LucideIcon } from 'lucide-react';
 import { MessageCircle, PackageCheck, Ruler, Shirt } from 'lucide-react';
+import clothingRepairImage from '@/assets/clothing-repair.jpg';
+import schoolUniformRepairImage from '@/assets/school-uniform-repair.jpg';
+import buttonReplacementImage from '@/assets/button-replacement.jpg';
 
 export type NavItem = { label: string; href: string };
 
@@ -26,8 +29,8 @@ export const SERVICES: Service[] = [
     summary:
       'Torn garments and worn fabric deserve careful attention. We repair them neatly so that they look as considered as the day you first wore them.',
     points: ['Repairing torn garments', 'Patching damaged areas', 'Restoring the finish of everyday pieces'],
-    image: 'https://images.pexels.com/photos/7147595/pexels-photo-7147595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    imageAlt: 'Designer working on an unfinished garment on a mannequin in a studio',
+    image: clothingRepairImage,
+    imageAlt: 'Seamstress working a light fabric through an industrial sewing machine',
   },
   {
     id: 'clothing-alterations',
@@ -44,8 +47,8 @@ export const SERVICES: Service[] = [
     summary:
       'Neat, comfortable uniforms help children feel confident at school. We make repairs and adjustments so that each uniform fits well and looks smart.',
     points: ['Repairs to children’s school uniforms', 'Adjustments for comfort and fit', 'Fixing loose seams and damaged areas'],
-    image: 'https://images.pexels.com/photos/17697757/pexels-photo-17697757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    imageAlt: 'Stylish woman in a plaid outfit against a blurred background',
+    image: schoolUniformRepairImage,
+    imageAlt: 'Hands carefully hand-stitching a white shirt at a worktable',
   },
   {
     id: 'zip-and-button',
@@ -53,8 +56,8 @@ export const SERVICES: Service[] = [
     summary:
       'Small details complete a garment. We replace faulty zips and missing buttons so that every fastening works and looks just right.',
     points: ['Replacing faulty zips where feasible', 'Replacing missing or damaged buttons', 'Matching finishing details'],
-    image: 'https://images.pexels.com/photos/8030153/pexels-photo-8030153.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    imageAlt: 'Fabric being pinned on a mannequin during dressmaking',
+    image: buttonReplacementImage,
+    imageAlt: 'Hands sewing a button onto a dark garment with a needle and thread',
   },
   {
     id: 'hemming',

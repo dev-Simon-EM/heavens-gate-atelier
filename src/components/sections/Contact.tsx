@@ -13,7 +13,7 @@ const linkClasses =
 
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-20 bg-ink-900 py-24 text-ivory-50 lg:py-32">
+    <section id="contact" className="scroll-mt-20 border-t border-ink-800 bg-ink-900 py-24 text-ivory-50 lg:py-32">
       <div className="mx-auto grid max-w-7xl gap-16 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20 lg:px-12">
         <Reveal className="lg:col-span-5">
           <SectionLabel tone="dark">Contact and Location</SectionLabel>
