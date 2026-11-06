@@ -64,14 +64,14 @@ export default function Celebrations() {
             className="lg:col-span-7"
           >
             <div key={active.id} className="panel-enter grid gap-8 md:grid-cols-12 md:gap-10">
-              <div className="overflow-hidden border border-ink-100 md:col-span-6">
+              <div className="border border-ink-100 bg-ivory-50 md:col-span-6">
                 <img
                   src={active.image}
                   alt={active.imageAlt}
                   width={940}
                   height={650}
                   loading="lazy"
-                  className="aspect-[4/5] w-full object-cover transition-transform duration-[1200ms] ease-out hover:scale-[1.04]"
+                  className="aspect-[4/5] w-full object-contain"
                 />
               </div>
               <div className="flex flex-col justify-center md:col-span-6">

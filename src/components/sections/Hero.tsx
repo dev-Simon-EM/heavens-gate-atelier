@@ -2,9 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import ButtonLink from '@/components/ui/ButtonLink';
 import Reveal from '@/components/ui/Reveal';
 import SectionLabel from '@/components/ui/SectionLabel';
-
-const HERO_IMAGE =
-  'https://images.pexels.com/photos/17474229/pexels-photo-17474229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940';
+import heroImage from '@/assets/hero-fashion.jpg';
 
 const COVERED = ['Clothing Repairs', 'Alterations', 'School Uniforms', 'Zips and Buttons', 'Personal Style'];
 
@@ -34,13 +32,14 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={150} className="lg:col-span-6">
-          <div className="relative overflow-hidden border border-ink-100">
+          <div className="relative border border-ink-100 bg-ivory-50">
             <img
-              src={HERO_IMAGE}
-              alt="Woman in a white turtleneck and dark trousers posing elegantly in a studio"
-              width={940}
-              height={650}
-              className="aspect-[4/3] w-full object-cover transition-transform duration-[1400ms] ease-out hover:scale-[1.03] sm:aspect-[5/4] lg:aspect-[4/5]"
+              src={heroImage}
+              alt="Model in a black tailored outfit posing in a neutral studio"
+              width={1200}
+              height={1800}
+              fetchPriority="high"
+              className="aspect-[2/3] w-full object-contain"
             />
           </div>
         </Reveal>

@@ -25,14 +25,14 @@ export default function Services() {
             return (
               <Reveal key={service.id}>
                 <article className="grid items-center gap-8 md:grid-cols-12 md:gap-12">
-                  <div className={`overflow-hidden border border-ink-100 md:col-span-6 ${isReversed ? 'md:order-2' : ''}`}>
+                  <div className={`border border-ink-100 bg-ivory-50 md:col-span-6 ${isReversed ? 'md:order-2' : ''}`}>
                     <img
                       src={service.image}
                       alt={service.imageAlt}
                       width={940}
                       height={650}
                       loading="lazy"
-                      className="aspect-[4/3] w-full object-cover transition-transform duration-[1200ms] ease-out hover:scale-[1.04]"
+                      className="aspect-[4/3] w-full object-contain"
                     />
                   </div>
 

@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
             width={940}
             height={650}
             loading="lazy"
-            className="aspect-[4/5] w-full border border-ink-100 object-cover"
+            className="aspect-[4/5] w-full border border-ink-100 bg-ivory-50 object-contain"
           />
         </Reveal>
 
